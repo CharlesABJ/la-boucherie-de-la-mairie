@@ -1,0 +1,29 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: end;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.login-form label {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.login-form label input {
+    width: 65%;
+    margin: 40px;
+}
+
+.signup-login {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}

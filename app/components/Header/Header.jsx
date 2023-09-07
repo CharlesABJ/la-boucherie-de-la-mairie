@@ -14,7 +14,7 @@ function Header(props) {
         <Link href="/about">À PROPOS</Link>
       </nav>
       <div className="account-shopping">
-        <Link href="/account">
+        <Link href="/login">
           <img src="../assets/icon/account.png" alt="compte" />
         </Link>
         <Link href="/shopping-cart">
