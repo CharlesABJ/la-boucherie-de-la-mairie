@@ -12,6 +12,9 @@ header nav a {
   margin: 0 30px;
   color: #faf4d3;
 }
+header nav a:hover {
+  color: #fffdff;
+}
 header nav a:first-of-type {
   margin: 0 30px 0 0;
 }

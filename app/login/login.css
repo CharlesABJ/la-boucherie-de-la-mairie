@@ -1,10 +1,11 @@
 .login-form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     text-align: end;
     align-items: center;
-    margin: 0 auto;
+    margin: 4em auto 0;
+    padding-right: 2em;
 
 }
 
@@ -14,16 +15,26 @@
     display: flex;
     align-items: center;
     justify-content: end;
+    margin-bottom: 2em;
 }
 
 .login-form label input {
-    width: 65%;
+    width: 60%;
     margin: 40px;
+    margin-left: 10em;
+    height: 2.5em;
 }
 
-.signup-login {
-    width: 100%;
+.login-form .signup-login {
+    width: 80%;
     display: flex;
     justify-content: space-around;
 
+}
+
+.login-form .signup-login button {
+    width: 12em;
+    height: 4em;
+    font-size: 1em;
+    border-radius: 1em;
 }

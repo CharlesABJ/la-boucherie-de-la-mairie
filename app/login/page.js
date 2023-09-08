@@ -1,6 +1,7 @@
 import React from "react";
 import "./login.css";
 import Header from "../components/Header/Header";
+import Link from "next/link";
 
 function login(props) {
   return (
@@ -23,7 +24,12 @@ function login(props) {
           <input id="password" type="text" />
         </label>
         <div className="signup-login">
-          <button>INSCRIPTION</button> <button>CONNECTION</button>
+          <Link href="/signup">
+            <button>S'INSCRIRE</button>
+          </Link>
+          <Link href="/add-product">
+            <button>SE CONNECTER</button>
+          </Link>
         </div>
       </form>
     </>
